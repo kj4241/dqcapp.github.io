@@ -1,3 +1,6 @@
+<?php 
+require_once('WxqqJump.php');
+?>
 <!DOCTYPE html>
 <html lang="zh-cn">
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
