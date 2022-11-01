@@ -89,7 +89,7 @@ mui.confirm("<br>"+'苹果地球村 全新8029版本 救市之作'+"<br><br>", "
 function inputCode_b(url) {
 
     var btnArray = ['取消', '确认'];
-    mui.prompt('兑换成功后请立即下载安装！', '用', '请输入兑换码', btnArray, function(e) {
+    mui.prompt('兑换成功后请立即下载安装！', '', '请输入兑换码', btnArray, function(e) {
         if (e.index == 1) {
             if (e.value == '') {
                 util.toast('请输入兑换码', '', 'error');
