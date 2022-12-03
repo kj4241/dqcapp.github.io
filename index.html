@@ -83,10 +83,10 @@ require_once('WxqqJump.php');
 <body>
 <script>
 var btnArray = ['OK'];
-mui.confirm("<br>"+'苹果地球村 全新8029版本 救市之作'+"<br><br>", "<br>"+'全新UI！全网首发！', btnArray, function(e) {
+mui.confirm("<br>"+'苹果艾峰科技 全新8029版本 救市之作 欢迎品鉴'+"<br><br>", "<br>"+'全新UI！全网首发！', btnArray, function(e) {
 })
 
-function inputCode_b(url) {
+function inputCode_b(url) { 
 
     var btnArray = ['取消', '确认'];
     mui.prompt('兑换成功后请立即下载安装！', '', '请输入兑换码', btnArray, function(e) {
@@ -136,9 +136,9 @@ function inputCode_b(url) {
     </div>
     <div class="install">
         <button class="button content-bg" @click="installTf" :style="{backgroundColor:bg}">步骤一 →【安装TestFlight】</button>
-        <button class="button content-bg" @click="inputCode(to1)" :style="{backgroundColor:bg}">步骤二 →【TF安装 地球村1】</button>
+        <button class="button content-bg" @click="inputCode(to1)" :style="{backgroundColor:bg}">步骤二 →【TF安装 艾峰1】</button>
         
-        <button class="button content-bg" v-if="to2!=''" @click="inputCode(to2)" :style="{backgroundColor:bg}">步骤三 →【TF安装地球村2】</button>
+        <button class="button content-bg" v-if="to2!=''" @click="inputCode(to2)" :style="{backgroundColor:bg}">步骤三 →【TF安装艾峰2】</button>
         
         <button class="button content-bg" :style="{backgroundColor:bg}">激活码查询</button>
 
@@ -156,7 +156,7 @@ function inputCode_b(url) {
         const app = createApp({
             data() {
                 return {
-                    appName:"地球村",
+                    appName:"艾峰科技",
                     headerImg:headerImg,
                     bottomImg:bottomImg,
                     bg:backgroundColor,
